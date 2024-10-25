@@ -1,0 +1,60 @@
+body
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto;
+}
+#huvud
+{
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+#logga
+{
+    max-width: 100px;
+}
+.bild1
+{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#mrbaby
+{
+    border: 2px solid white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+aside
+{
+    border: 2px solid black;
+    
+}
+.bilder
+{
+    background-color: black;
+    border: 2px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+footer
+{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-color: black;
+}
